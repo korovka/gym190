@@ -1,6 +1,9 @@
 html,
 body {
     height: 100%;
+    background-image: url(/fon.jpg);
+    background-size: contain;
+
 }
 
 .wrap {
@@ -13,10 +16,13 @@ body {
 .wrap > .container {
     padding: 70px 15px 20px;
 }
-
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #d9edf7;
+}
 .footer {
     height: 60px;
-    background-color: #f5f5f5;
+    background-color: #d9edf7;
     border-top: 1px solid #ddd;
     padding-top: 20px;
 }

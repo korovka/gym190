@@ -7,7 +7,7 @@ $this->title = Yii::$app->name;
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>ГБОУ Гимназия №190 центрального района Санкт-Петербурга</h1>
+<!--        <h1>ГБОУ Гимназия №190 центрального района Санкт-Петербурга</h1>-->
 
 <!--        <p class="lead">You have successfully created your Yii-powered application.</p>
 

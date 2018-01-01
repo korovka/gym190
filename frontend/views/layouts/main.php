@@ -33,12 +33,47 @@ AppAsset::register($this);
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-default navbar-fixed-top',
+            'style' => 'background-color:#d9edf7;font-size:16px;font-weight:bold;font-family: Times New Roman',
+
         ],
     ]);
     $menuItems = [
-        ['label' => 'Главная', 'url' => ['/site/index']],
-        ['label' => 'Основные сведения об образовательной организации', 'url' => ['/site/about']],
-        ['label' => 'Контакты', 'url' => ['/site/contact']],
+        ['label' => 'ГБОУ Гимназия №190 Центрального района Санкт-Петербурга', 'url' => ['/site/index']],
+        ['label' => 'Новости', 'url' => ['/site/about']],
+        ['label' => 'Основные сведения об образовательной организации', 'url' => ['/site/about'],
+                'options'=>['class'=>'dropdown'],
+			    'template' => '<a href="{url}" class="url-class">{label}</a>',
+			    'items' => [
+				    ['label' => 'Основные сведения', 'url' => ['services/juridical-services']],
+				    ['label' => 'Структура и управление образовательной организацией', 'url' => ['services/valuation-services']],
+                    ['label' => 'Документы', 'url' => ['services/juridical-services']],
+                    ['label' => 'Образование', 'url' => ['services/juridical-services']],
+                    ['label' => 'Образовательные стандарты', 'url' => ['services/juridical-services']],
+                    ['label' => 'Руководство.Педагогический состав.', 'url' => ['services/juridical-services']],
+                    ['label' => 'Материально-техническое обеспечение и оснащенность образовательного процесса', 'url' => ['services/juridical-services']],
+                    ['label' => 'Стипендии и иные виды материальной поддержки', 'url' => ['services/juridical-services']],
+                    ['label' => 'Платные образовательные услуги', 'url' => ['services/juridical-services']],
+                    ['label' => 'Финансово-хозяйственная деятельность', 'url' => ['services/juridical-services']],
+                    ['label' => 'Вакантные места для приема-перевода', 'url' => ['services/juridical-services']],
+			]
+		],
+        ['label' => 'ГИА', 'url' => ['/site/about']],
+//        ['label' => 'Историческая справка', 'url' => ['/site/about']],
+//        ['label' => 'Информационные сборники ГБОУ гимназия №190', 'url' => ['/site/contact']],
+//        ['label' => 'Электронный дневник', 'url' => ['/site/contact']],
+//        ['label' => 'Воспитательная служба', 'url' => ['/site/contact']],
+//        ['label' => 'Школьная медиация', 'url' => ['/site/contact']],
+//        ['label' => 'Кафедра живописи и рисунка', 'url' => ['/site/contact']],
+//        ['label' => 'Наши выпускники', 'url' => ['/site/contact']],
+//        ['label' => 'Инновационная деятельность', 'url' => ['/site/contact']],
+//        ['label' => 'Дополнительное образование', 'url' => ['/site/contact']],
+//        ['label' => 'Информация о питании', 'url' => ['/site/contact']],
+//        ['label' => 'Библиотека', 'url' => ['/site/contact']],
+//        ['label' => 'Надзор и контроль', 'url' => ['/site/contact']],
+//        ['label' => 'Дорожная безлпасность', 'url' => ['/site/contact']],
+//        ['label' => 'Доступная среда', 'url' => ['/site/contact']],
+//        ['label' => 'Пожарная безопасность', 'url' => ['/site/contact']],
+//        ['label' => 'Контакты', 'url' => ['/site/contact']],
     ];
     /*if (Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
@@ -60,10 +95,11 @@ AppAsset::register($this);
     NavBar::end();
     ?>
 
-    <div class="container">
+ <!--   <div class="container">
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>
+-->
         <?= Alert::widget() ?>
         <?= $content ?>
     </div>
