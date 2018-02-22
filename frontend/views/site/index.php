@@ -2,7 +2,7 @@
 
 /* @var $this yii\web\View */
 
-$this->title = Yii::$app->name;
+//$this->title = Yii::$app->name;
 ?>
 <div class="site-index">
 <!---->
@@ -27,9 +27,9 @@ $this->title = Yii::$app->name;
 <!--                        гимназии-->
 <!--                    </div>-->
                     <div class="card-body">
-                        <h5 class="card-title" style="margin: 2%;">Домашнее задание на 27 февраля 2018</h5>
-                        <p class="card-text" style="margin: 2%;">Определить знак числа cos a, если:
-                            1) а=2*pi/3  2) a=7*pi/6  3) a=-2*pi/5 4) a=4,6 5) a=-5,3
+                        <p class="card-title" style="margin: 2%;">Домашнее задание<br> на 27 февраля 2018.</p>
+                        <p class="card-text" style="margin: 2%;">Определить знак <br> числа cos a, если:<br>
+                            1) а = 2*pi/3 <br> 2) a = 7*pi/6 <br> 3) a= - 2*pi/5 <br> 4) a = 4,6 <br> 5) a = - 5,3
                             </p>
 <!--                        <p class="card-text" style="margin: 2%;"> В историческом центре Санкт-Петербурга, на набережной-->
 <!--                            реки-->
@@ -117,7 +117,7 @@ $this->title = Yii::$app->name;
 <!--                    </div>-->
 <!--                </div>-->
 <!--            </div>-->
-<!--            <div class="col-md-4 "></div>-->-->
+<!--            <div class="col-md-4 "></div>--->
 <!---->
 <!--            <div class="col-md-2 ">-->
 <!--                <div class="card bg-info  mb-3">-->
