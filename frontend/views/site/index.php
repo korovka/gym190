@@ -5,49 +5,234 @@
 $this->title = Yii::$app->name;
 ?>
 <div class="site-index">
+<!---->
+<!--    <div class="jumbotron">-->
+<!---->
+<!--        <h3 style="font-size:20px;font-weight:bold; color:white">ГБОУ Гимназия №190 центрального района-->
+<!--            Санкт-Петербурга(сайт находится в стадии разработки) Текущий рабочий сайт по адресу:</h3>-->
+<!--        <a style="font-size:20px;font-weight:bold; color:white" href="http://goul190tsr.acentr.gov.spb.ru/">goul190tsr.acentr.gov.spb.ru</a>-->
+<!--    </div>-->
 
-    <div class="jumbotron">
-<!--        <h1>ГБОУ Гимназия №190 центрального района Санкт-Петербурга</h1>-->
 
-<!--        <p class="lead">You have successfully created your Yii-powered application.</p>
-
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
--->    </div>
-
-    <div class="body-content">
-
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-4">
-                <!--<h2>Heading</h2>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>-->
+            <div class="col-md-2">
+                <div class="card bg-info">
+                    <div class="card-header"
+                         style="margin: 2%;font-size:16px;font-weight:bold;font-family: Times New Roman">Домашнее задание на 27 февраля 2018
+                    <!-- </div> -->
+<!--                    <div class="card-header"-->
+<!--                         style="margin: 2%;font-size:16px;font-weight:bold;font-family: Times New Roman">История-->
+<!--                        гимназии-->
+<!--                    </div>-->
+                    <div class="card-body">
+                        <h5 class="card-title" style="margin: 2%;">Домашнее задание на 27 февраля 2018</h5>
+                        <p class="card-text" style="margin: 2%;">Определить знак числа cos a, если:
+                            1) а=2*pi/3  2) a=7*pi/6  3) a=-2*pi/5 4) a=4,6 5) a=-5,3
+                            </p>
+<!--                        <p class="card-text" style="margin: 2%;"> В историческом центре Санкт-Петербурга, на набережной-->
+<!--                            реки-->
+<!--                            Фонтанки 22, в доме, где жили русский купец,-->
+<!--                            меценат Василий Федулович Громов, историк и краевед Михаил Иванович Пыляев,-->
+<!--                            1 сентября 1949 года была открыта мужская гимназия, которая затем была преобразована в-->
+<!--                            среднюю-->
+<!--                            школу.-->
+<!--                            Учитывая ее близкое расположение к художественному училищу, 60 лет назад в ней были открыты-->
+<!--                            рисовальные классы.</p>-->
+<!--                        <p style="margin: 2%;"><a href="/index.php?r=site/history">Читать полностью--><!--</a></p>-->
+                        <!--                        <p class="card-header"-->
+                        <!--                           style="margin: 2%;font-size:16px;font-weight:bold;font-family: Times New Roman">-->
+                        <!--                            Достижения</p>-->
+                        <!--                        Информационные сборники.Методические материалы, разработанные в гимназии, Статьи педагогов. </p>-->
+                        <!--                        <p style="margin: 2%;"><a href="../../example/knob.html">Читать полностью</a></p>-->
+                        <!--                        <p class="card-header"-->
+                        <!--                           style="margin: 2%;font-size:16px;font-weight:bold;font-family: Times New Roman">-->
+                        <!--                            Дополнительное-->
+                        <!--                            образование</p>-->
+                        <!--                        <p class="card-text" style="margin: 2%;">Расписание, преподаватели. </p>-->
+                        <!--                        <p style="margin: 2%;"><a href="../../example/knob.html">Читать полностью</a></p>-->
+                        <!--                        <p class="card-header"-->
+                        <!--                           style="margin: 2%;font-size:16px;font-weight:bold;font-family: Times New Roman">Кафедра-->
+                        <!--                            живописи-->
+                        <!--                            и рисунка</p>-->
+                        <!--                        <p class="card-text" style="margin: 2%;">Расписание, преподаватели. </p>-->
+                        <!--                        <p style="margin: 2%;"><a href="../../example/knob.html">Читать полностью</a></p>-->
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-4">
-<!--                <h2>Heading</h2>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
+<!--            <div class="col-md-2 ">-->
+<!--                <div class="card bg-info  mb-3">-->
+<!--                    <div class="card-header"-->
+<!--                         style="margin: 2%;font-size:16px;font-weight:bold;font-family: Times New Roman">Виртуальная-->
+<!--                        галерея-->
+<!--                    </div>-->
+<!--                    <div class="card-body">-->
+<!--                        <h5 class="card-title" style="margin: 2%;"></h5>-->
+<!--                        <p class="card-text" style="margin: 2%;">С творческими работами наших учащихся можно-->
+<!--                            познакомиться-->
+<!--                            в </p>-->
+<!--                        <p style="margin: 2%;"><a href="../../example/knob.html">Виртуальной галерее творческих-->
+<!--                                достижений</a></p>-->
+<!--                        <p></p>-->
+<!--                        <p class="card-text"-->
+<!--                           style="margin: 2%;font-weight:bold;font-size:16px;font-family: Times New Roman">Библиотека-->
+<!--                            гимназии </p>-->
+<!--                        <p class="card-text" style="margin: 2%;">Информация о библиотеке. Номера газеты "Палитра" можно-->
+<!--                            посмотреть на сайте библиотеки нашей гимназии </p>-->
+<!--                        <p style="margin: 2%;"><a href="../../example/knob.html">Сайт библиотеки ГБОУ гимназии №190</a>-->
+<!--                        </p>-->
+<!---->
+<!--                    </div>-->
+<!---->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!---->
+<!--            <div class="col-md-2 ">-->
+<!--                <div class="card bg-info  mb-3">-->
+<!--                    <div class="card-header"-->
+<!--                         style="margin: 2%;font-size:16px;font-weight:bold;font-family: Times New Roman">Достижения-->
+<!--                    </div>-->
+<!--                    <div class="card-body">-->
+<!--                        <h5 class="card-title" style="margin: 2%;"></h5>-->
+<!--                        <p class="card-text" style="margin: 2%;">Книга достижений. Памятки для родителей и учителей.-->
+<!--                            Информационные сборники.Методические материалы, разработанные в гимназии, Статьи-->
+<!--                            педагогов. </p>-->
+<!--                        <p style="margin: 2%;"><a href="../../example/knob.html">Читать полностью-</a></p>-->
+<!---->
+<!--                        <p class="card-header"-->
+<!--                           style="margin: 2%;font-size:16px;font-weight:bold;font-family: Times New Roman">-->
+<!--                            Дополнительное образование</p>-->
+<!--                        <p class="card-text" style="margin: 2%;">Расписание, преподаватели. </p>-->
+<!--                        <p style="margin: 2%;"><a href="../../example/knob.html">Читать полностью-</a></p>-->
+<!---->
+<!--                        <p class="card-header"-->
+<!--                           style="margin: 2%;font-size:16px;font-weight:bold;font-family: Times New Roman">Кафедра-->
+<!--                            живописи и рисунка</p>-->
+<!--                        <p class="card-text" style="margin: 2%;">Расписание, преподаватели. </p>-->
+<!--                        <p style="margin: 2%;"><a href="../../example/knob.html">Читать полностью-</a></p>-->
+<!---->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-md-4 "></div>-->-->
+<!---->
+<!--            <div class="col-md-2 ">-->
+<!--                <div class="card bg-info  mb-3">-->
+<!--                    <div class="card-header"-->
+<!--                         style="margin: 2%;font-size:16px;font-weight:bold;font-family: Times New Roman">Наши выпускники-->
+<!--                    </div>-->
+<!--                    <div class="card-body">-->
+<!--                        <h5 class="card-title" style="margin: 2%;"></h5>-->
+<!--                        <p class="card-text" style="margin: 2%;"> Из стен школы вышли известные художники,-->
+<!--                            государственные-->
+<!--                            деятели, дизайнеры, юристы, экономисты, бизнесмены, врачи и артисты.-->
+<!--                            Сергей Евгеньевич Нарышкин — российский государственный деятель, с декабря 2011года —-->
+<!--                            Председатель Государственной Думы Российской Федерации. С декабря 2008 года — Председатель-->
+<!--                            Комиссии при Президенте Российской Федерации по государственным наградам; с 2009 года —-->
+<!--                            Председатель Комиссии по противодействию попыткам фальсификации истории в ущерб интересам-->
+<!--                            России.-->
+<!--                        </p>-->
+<!--                        <p style="margin: 2%;"><a href="../../example/knob.html">Читать полностью-</a></p>-->
+<!--                    </div>-->
+<!---->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-md-2 ">-->
+<!--                <div class="card bg-info  mb-3">-->
+<!--                    <div class="card-header"-->
+<!--                         style="margin: 2%;font-size:16px;font-weight:bold;font-family: Times New Roman">Инновационная-->
+<!--                        деятельность-->
+<!--                    </div>-->
+<!--                    <div class="card-body">-->
+<!--                        <h5 class="card-title" style="margin: 2%;"></h5>-->
+<!--                        <p class="card-text" style="margin: 2%;"> 2017 год - В ГБОУ Гимназии №190 разработан-->
+<!--                            инновационный-->
+<!--                            продукт: Виртуальная галерея творческих достижений-->
+<!---->
+<!--                            2016 год - ГБОУ Гимназия №190 Центрального района - победитель конкурса среди-->
+<!--                            государственных-->
+<!--                            образовательных учреждений, внедряющих инновационные образовательные программы.-->
+<!---->
+<!--                            2013 -2016 годы - ОПЫТНО-ЭКСПЕРИМЕНТАЛЬНАЯ ПЛОЩАДКА: "Балльно-рейтинговая система учета-->
+<!--                            учебных-->
+<!--                            и внеучебных достижений учащихся»-->
+<!---->
+<!--                            2010-2013 годы - РАЙОННЫЙ РЕСУРСНЫЙ ЦЕНТР: ГБОУ Лицей №190"-->
+<!--                        <p style="margin: 2%;"><a href="../../example/knob.html"></a></p>-->
+<!--                    </div>-->
+<!---->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-md-2">-->
+<!--                <div class="card bg-info  mb-3">-->
+                    <!--                    <p class="card-text"-->
+                    <!--                       style="margin: 2%;font-weight:bold;font-size:16px;font-family: Times New Roman">Электронный-->
+                    <!--                        дневник</p>-->
+                    <!--                    <p class="card-text" style="margin: 2%;">Подробнее о работе с электронным дневником </p>-->
+<!--                    <p style="margin: 2%;"><a href="../../example/knob.html">Электронный дневник-</a></p>-->
+                    <!--                    <p class="card-text"-->
+                    <!--                       style="margin: 2%;font-weight:bold;font-size:16px;font-family: Times New Roman">-->
+                    <!--                        Воспитательная-->
+                    <!--                        служба</p>-->
+                    <!--                    <p class="card-text" style="margin: 2%;">Подробнее</p>-->
+<!--                    <p style="margin: 2%;"><a href="../../example/knob.html">Воспитательная служба-</a></p>-->
+                    <!--                    <p class="card-text"-->
+                    <!--                       style="margin: 2%;font-weight:bold;font-size:16px;font-family: Times New Roman">Школьная-->
+                    <!--                        медиация</p>-->
+                    <!--                    <p class="card-text" style="margin: 2%;">Подробнее</p>-->
+<!--                    <p style="margin: 2%;"><a href="../../example/knob.html">Школьная медиация-</a></p>-->
+                    <!--                    <div class="card-header"-->
+                    <!--                         style="margin: 2%;font-size:16px;font-weight:bold;font-family: Times New Roman">Доступная среда-->
+                    <!--                    </div>-->
+                    <!--                    <div class="card-body">-->
+                    <!--                        <h5 class="card-title" style="margin: 2%;"></h5>-->
+                    <!--                        <p class="card-text" style="margin: 2%;">Подробнее </p>-->
+<!--                    <p style="margin: 2%;"><a href="../../example/knob.html">Доступная среда</a></p>-->
+                    <!--                        <p class="card-text"-->
+                    <!--                           style="margin: 2%;font-weight:bold;font-size:16px;font-family: Times New Roman">Дорожная-->
+                    <!--                            безопасность</p>-->
+                    <!--                        <p class="card-text" style="margin: 2%;">Подробнее</p>-->
+<!--                    <p style="margin: 2%;"><a href="../../example/knob.html">Дорожная безопасность</a></p>-->
+                    <!--                        <p class="card-text"-->
+                    <!--                           style="margin: 2%;font-weight:bold;font-size:16px;font-family: Times New Roman">Надзор и-->
+                    <!--                            контроль</p>-->
+                    <!--                        <p class="card-text" style="margin: 2%;">Подробнее</p>-->
+<!--                    <p style="margin: 2%;"><a href="../../example/knob.html">Надзор и контроль</a></p>-->
+                    <!--                        <p class="card-text"-->
+                    <!--                           style="margin: 2%;font-weight:bold;font-size:16px;font-family: Times New Roman">Монитогинг-->
+                    <!--                            сайта</p>-->
+                    <!--                        <p class="card-text" style="margin: 2%;">Подробнее</p>-->
+<!--                    <p style="margin: 2%;"><a href="../../example/knob.html">Монитогинг сайта/a></p>-->
+                    <!--                         <p class="card-text"-->
+                    <!--                             style="margin: 2%;font-weight:bold;font-size:16px;font-family: Times New Roman">-->
+                    <!--                            Профилактика-->
+                    <!--                            экстремизма</p>-->
+                    <!--                        <p class="card-text" style="margin: 2%;">Подробнее</p>-->
+<!--                    <p style="margin: 2%;"><a href="../../example/knob.html">Профилактика экстремизма</a></p>-->
+                </div>
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
--->            </div>
-            <div class="col-lg-4">
-<!--                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
--->            </div>
+            </div>
         </div>
 
+
+<!--        <div class="col-md-2">-->
+<!--            <a href="http://www.cikrf.ru"><img src="/baners/vib_prezidenta2018.jpg" alt="Задана ширина" width="220"></a>-->
+<!---->
+<!--            <img src="/baners/edinstvo.png" alt="Задана ширина" width="220">-->
+<!--        </div>-->
+<!---->
+<!--        <div class="col-md-2">-->
+<!--            <img src="/baners/zozh-2.jpg" alt="Задана ширина" width="220">-->
+<!--        </div>-->
+<!--        <div class="col-md-2">-->
+<!--            <img src="/baners/zozh-1.jpg" alt="Задана ширина" width="220">-->
+<!--        </div>-->
+<!--        <div class="col-md-2">-->
+<!--            <a href="http://stoma9.ru/psk.html"><img src="/baners/psk.jpg" alt="Задана ширина" width="220"></a>-->
+<!--        </div>-->
     </div>
+<!--</div>
 </div>

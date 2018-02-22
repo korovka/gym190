@@ -24,6 +24,18 @@ class SiteController extends Controller
     public function behaviors()
     {
         return [
+            [
+                'class' => 'yii\filters\HttpCache',
+                'only' => ['index'],
+                
+//                'lastModified' => function ($action, $params) {
+//                    $q = new \yii\db\Query();
+//                    return $q->from('user')->max('updated_at');
+//                },
+//            'etagSeed' => function ($action, $params) {
+//                return // generate ETag seed here
+//            }
+            ],
             'access' => [
                 'class' => AccessControl::className(),
                 'only' => ['logout', 'signup'],
@@ -75,6 +87,10 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
+    public function actionHistory()
+    {
+        return $this->render('history');
+    }
     /**
      * Logs in a user.
      *
