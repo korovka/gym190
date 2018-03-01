@@ -216,9 +216,10 @@
                 <div class="col-md-2">
                     <div class="card bg-info">
                   <div class="card-header"
-                       style="margin: 2%;font-size:16px;font-weight:bold;font-family: Times New Roman">Домашнее задание на 6 марта 2018
+                       style="margin: 2%;font-size:16px;font-weight:bold;font-family: Times New Roman"><br>
+                       <br><br>Домашнее задание на 6 марта 2018
                        <div class="card-body">
-                <p class="card-title" style="margin: 2%;">Домашнее задание<br> на 6 марта 2018.</p>
+                <!--<p class="card-title" style="margin: 2%;"><br>Домашнее задание<br> на 6 марта 2018.</p>-->
                 <p class="card-text" style="margin: 2%;">Вычислить значение sin a, tg a, ctg a, если 3pi/2<'a'<'2pi' и cos a =5/13
                     </p>
                   </div>
