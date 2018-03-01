@@ -31,7 +31,7 @@
                         <p class="card-text" style="margin: 2%;">Определить знак <br> числа cos a, если:<br>
                             1) а = 2*pi/3 <br> 2) a = 7*pi/6 <br> 3) a= - 2*pi/5 <br> 4) a = 4,6 <br> 5) a = - 5,3
                             </p>
-<!--                        <p class="card-text" style="margin: 2%;"> В историческом центре Санкт-Петербурга, на набережной-->
+                            <!--                        <p class="card-text" style="margin: 2%;"> В историческом центре Санкт-Петербурга, на набережной-->
 <!--                            реки-->
 <!--                            Фонтанки 22, в доме, где жили русский купец,-->
 <!--                            меценат Василий Федулович Громов, историк и краевед Михаил Иванович Пыляев,-->
@@ -213,7 +213,17 @@
                     <!--                        <p class="card-text" style="margin: 2%;">Подробнее</p>-->
 <!--                    <p style="margin: 2%;"><a href="../../example/knob.html">Профилактика экстремизма</a></p>-->
                 </div>
-
+                <div class="col-md-2">
+                    <div class="card bg-info">
+                  <div class="card-header"
+                       style="margin: 2%;font-size:16px;font-weight:bold;font-family: Times New Roman">Домашнее задание на 6 марта 2018
+                       <div class="card-body">
+                <p class="card-title" style="margin: 2%;">Домашнее задание<br> на 6 марта 2018.</p>
+                <p class="card-text" style="margin: 2%;">Вычислить значение sin a, tg a, ctg a, если 3pi/2<'a'<'2pi' и cos a =5/13
+                    </p>
+                  </div>
+                </div>
+                  </div>
             </div>
         </div>
 
