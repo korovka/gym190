@@ -215,18 +215,61 @@
                 </div>
                 <div class="col-md-2">
                     <div class="card bg-info">
-                  <div class="card-header"
+                    <div class="card-header"
                        style="margin: 2%;font-size:16px;font-weight:bold;font-family: Times New Roman"><br>
                        <br><br>Домашнее задание на 6 марта 2018
                        <div class="card-body">
                 <!--<p class="card-title" style="margin: 2%;"><br>Домашнее задание<br> на 6 марта 2018.</p>-->
-                <p class="card-text" style="margin: 2%;">Вычислить значение sin a, tg a, ctg a, если 3pi/2<'a'<'2pi' и cos a =5/13
-                    </p>
+                       <p class="card-text" style="margin: 2%;">Вычислить значение sin a, tg a, ctg a, если 3pi/2<'a'<'2pi' и cos a =5/13
+                       </p>
+                      </div>
                   </div>
-                </div>
                   </div>
             </div>
-        </div>
+
+        <div class="col-md-2">
+            <div class="card bg-info">
+            <div class="card-header"
+               style="margin: 2%;font-size:16px;font-weight:bold;font-family: Times New Roman"><br>
+               <br><br>Домашнее задание на 20 марта 2018
+               <div class="card-body">
+        <!--<p class="card-title" style="margin: 2%;"><br>Домашнее задание<br> на 6 марта 2018.</p>-->
+               <p class="card-text" style="margin: 2%;">1)Упростить выражение</p>
+               <p class="card-text" style="margin: 2%;">tg(-a)cos a + sin a
+               </p><br>
+               <p class="card-text" style="margin: 2%;">2)Вычислить:</p>
+               <p class="card-text" style="margin: 2%;">cos(-pi/6)sin(-pi/3) + tg(-pi/4)</p>
+              </div>
+          </div>
+          </div>
+    </div>
+</div>
+</div>
+
+<!-- <div class="col-md-6">
+    <div class="card bg-info">
+    <div class="card-header"
+       style="margin: 2%;font-size:16px;font-weight:bold;font-family: Times New Roman"><br>
+       <br>Таблица часто встречающихся значений синуса, косинуса, тангенса и котангенса
+       <div class="card-body">
+
+       <table border="1" width="100%">
+         <th>a</th>
+         <th>0 </th>
+         <th>a</th>
+         <th>a</th>
+         <th>a</th>
+         <th>a</th>
+         <th>a</th>
+         <th>a</th>
+         <th>a</th>
+
+       </table>
+      </div>
+  </div>
+  </div>
+</div> -->
+
 
 
 <!--        <div class="col-md-2">-->
