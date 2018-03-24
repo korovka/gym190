@@ -243,10 +243,27 @@
           </div>
           </div>
     </div>
+
+            <div class="col-md-2">
+                <div class="card bg-info">
+                <div class="card-header"
+                   style="margin: 2%;font-size:16px;font-weight:bold;font-family: Times New Roman"><br>
+                   <br><br>Домашнее задание на 27 марта 2018
+                   <div class="card-body">
+            <!--<p class="card-title" style="margin: 2%;"><br>Домашнее задание<br> на 6 марта 2018.</p>-->
+                   <p class="card-text" style="margin: 2%;">Упростить выражение</p>
+                   <p class="card-text" style="margin: 2%;">1) sin(-a)/(cos(-a)+sin(-a)) + cos(-a)/(cos(-a)-sin a)
+                   </p>
+                   <p class="card-text" style="margin: 2%;">2)(cos a-sin(-a))/cos(-a)+tg(-a)</p>
+                   <p class="card-text" style="margin: 2%;">3)(tg^2(-a)+sin(-a))/tg(-a) - tg(-a)</p>
+                  </div>
+              </div>
+              </div>
+        </div>
 </div>
 </div>
 
-<!-- <div class="col-md-6">
+ <!-- <div class="col-md-6">
     <div class="card bg-info">
     <div class="card-header"
        style="margin: 2%;font-size:16px;font-weight:bold;font-family: Times New Roman"><br>
@@ -254,15 +271,21 @@
        <div class="card-body">
 
        <table border="1" width="100%">
-         <th>a</th>
-         <th>0 </th>
-         <th>a</th>
-         <th>a</th>
-         <th>a</th>
-         <th>a</th>
-         <th>a</th>
-         <th>a</th>
-         <th>a</th>
+         <th> a</th>
+         <th> 0 (0&deg;)</th>
+         <th> pi/6 (30&deg;)</th>
+         <th> pi/4 (45&deg;)</th>
+         <th> pi/3 (60&deg;)</th>
+         <th> pi/2 (90&deg;)</th>
+         <th> pi (180&deg;)</th>
+         <th> 3pi/2 (270&deg;)</th>
+         <th> 2pi (360&deg;)</th>
+         <tr>
+           <td>sin a</td>
+           <td>0</td>
+           <td>1/2</td>
+           <td>&#8730;2/2</td>
+         </tr>
 
        </table>
       </div>
