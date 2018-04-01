@@ -261,6 +261,23 @@
               </div>
         </div>
 </div>
+<div class="col-md-2">
+    <div class="card bg-info">
+    <div class="card-header"
+       style="margin: 2%;font-size:16px;font-weight:bold;font-family: Times New Roman"><br>
+       <br><br>Домашнее задание на 3 апреля 2018
+       <div class="card-body">
+<!--<p class="card-title" style="margin: 2%;"><br>Домашнее задание<br> на 6 марта 2018.</p>-->
+       <p class="card-text" style="margin: 2%;">Пользуясь формулами сложения упростить и затем вычислить значение выражения:</p>
+       <p class="card-text" style="margin: 2%;">1) cos19&deg;30&prime;cos25&deg;30&prime; - sin19&deg;30&prime;sin25&deg;30&prime;
+       </p>
+       <p class="card-text" style="margin: 2%;">2)cos 8pi/7 cos pi/7 + sin 8pi/7 sin pi/7</p>
+       <p class="card-text" style="margin: 2%;">3) Повторить таблицу sin, cos, tg, ctg, основных углов !</p>
+
+      </div>
+  </div>
+  </div>
+</div>
 </div>
 
  <!-- <div class="col-md-6">
